@@ -12,7 +12,7 @@ public:
         {
             int rem = x % 10;
             
-//          to cantrol the overflow condition
+//          to control the overflow condition
             if((ans > INT_MAX/10) || (ans < INT_MIN/10))
             {
                 return 0;
